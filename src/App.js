@@ -5,6 +5,11 @@ import Confetti from 'react-confetti';
 import Die from './Die';
 import './style.css';
 
+/*hey you should add some features like
+- no. of rolls
+- time taken to complete
+- best time , use localstorage*/
+
 function generateNewDie() {
   return {
     value: Math.ceil(Math.random() * 6),
